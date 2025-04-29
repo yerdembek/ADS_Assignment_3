@@ -18,7 +18,6 @@ public class Main {
 
 
 
-        // --- Тестирование BST ---
         BST<Integer, String> bst = new BST<>();
         bst.put(5, "Five");
         bst.put(3, "Three");

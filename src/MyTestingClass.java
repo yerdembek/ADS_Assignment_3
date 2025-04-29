@@ -7,7 +7,6 @@ public class MyTestingClass {
         this.name = name;
     }
 
-    // Собственный hashCode (НЕ использовать Objects.hash())
     @Override
     public int hashCode() {
         int result = 17;
